@@ -1,0 +1,15 @@
+# Raw, potentially restricted, or personally identifiable data
+data/raw/
+raw_sources/
+*.csv
+*.sqlite
+*.db
+
+# Local build and temporary files
+.artifact-work/
+tmp/
+*.tmp
+~$*.xlsx
+
+# Keep only the reviewed public research artifacts in workbooks/
+!workbooks/*.xlsx
